@@ -1,47 +1,52 @@
-@page "/GroceryStore"
+﻿@page "/GroceryStore"
 
-@if (groceryIsle.Count != 0)
+@if (Products.Count != 0)
 {
-    <h1>Isle List</h1>
+    <h1>Food Product's</h1>
 }
 
 
 <ul>
     
-    @if (groceryIsle.Count == 0)
+    @if (Productisle.Count == 0)
+
+
     {
-        <button class="btn btn-primary" @onclick="AddProducts">Add Products</button><br><br>
+        <button class="btn btn-primary" @onclick="GroceryList">GroceryList</button><br><br>
     }
-    @foreach (var GroceryIsle in groceryIsle)
+    @foreach (var GroceryIsle in Productisle)
+
+    
     {
-        <li><button class="btn btn-default" @onclick="() =>tmpItems=GetItems(GroceryIsle.isleNumber)">@GroceryIsle.isleName</button></li>
+        <li><button class="btn btn-default" @onclick="() =>Items=newProducts(GroceryIsle.isleNumber)">@GroceryIsle.isleName</button></li>
     }
 
 
     <br><br>
-    <h3>@currentIsle</h3>
+
+    <h3>@GrcyProducts</h3>
 
 
     
     <br><br>
-    @if (groceryIsle.Count != 0)
+    @if (Productisle.Count != 0)
     {
         <table class="table">
             <tr>
-                <th width="150">Food Item</th>
-                <th width="150">Price</th>
-                <th width="150">Weight</th>
-                <th width="150">Quantity</th>
+                <th>Quantity</th>
+                <th>ProductId</th>
+                <th>Product</th>
+                <th>Price</th>
 
             </tr>
-            @foreach (var GroceryItem in tmpItems)
+            @foreach (var Productitem in Items)
             {
                 <tr>
-                    <td>@GroceryItem.foodItemName</td>
-                    <td>@GroceryItem.foodItemPrice</td>
-                    <td>@GroceryItem.foodItemWeight</td>
                     <td><button class="btn btn-default" @onclick="() => GroceryItem.DescreaseQuaniity()">-</button>  @GroceryItem.Quantity<button class="btn btn-default"
                     @onclick="() => GroceryItem.IncreaseQuaniity()">+</button></td>
+                    <td>@Productitem.ProductId</td>
+                    <td>@Productitem.Product</td>
+                    <td>@Productitem.Price</td>                    
                 </tr>
             }
         </table>
@@ -53,110 +58,103 @@
 @code {
 
 
-    private List<GroceryIsle> groceryIsle = new List<GroceryIsle>();
-    private List<FoodItem> tmpItems = new List<FoodItem>();
-    private string currentIsle = "";
+    private List<GroceryIsle> Productisle = new List<GroceryIsle>();
+    private List<FoodItem> Items = new List<FoodItem>();
+    private string GrcyProducts = "";
 
-        private void AddProducts()
+        private void GroceryProducts()
     {
-        Console.Write("worked");
-        GroceryIsle isl1 = new GroceryIsle();
-        isl1.isleName = "Vegetables";
-        isl1.isleNumber = 1;
-        isl1.FoodItemsList.Add(new FoodItem
-        {
-            Quantity = 1,
-            foodItemName = "Tomato",
-            foodItemWeight = "1/2 lb",
-            foodItemPrice =
-        1.45
-        });
-        isl1.FoodItemsList.Add(new FoodItem
-        {
-            Quantity = 1,
-            foodItemName = "Onion",
-            foodItemWeight = "1/2 lb",
-            foodItemPrice =
-        1.78
-        });
-        isl1.FoodItemsList.Add(new FoodItem
-        {
-            Quantity = 1,
-            foodItemName = "Carrot",
-            foodItemWeight = "1/2 lb",
-            foodItemPrice =
-        2.00
-        });
-
-        GroceryIsle isl2 = new GroceryIsle();
-        isl2.isleName = "Produce";
-        isl2.isleNumber = 2;
-        isl2.FoodItemsList.Add(new FoodItem
-        {
-            Quantity = 15,
-            foodItemName = "Apples",
-            foodItemWeight = "1.5",
-            foodItemPrice =
-        2.99
-        });
-        isl2.FoodItemsList.Add(new FoodItem
-        {
-            Quantity = 20,
-            foodItemName = "Oranges",
-            foodItemWeight = "1.5",
-            foodItemPrice =
-        5.99
-        });
-        isl2.FoodItemsList.Add(new FoodItem
+        GroceryIsle PIsle1 = new GroceryIsle();
+        PIsle1.isleName = "snacks";
+        PIsle1.isleNumber = 1;
+        PIsle1.FoodItemsList.Add(new FoodItem
         {
             Quantity = 10,
-            foodItemName = "Lemons",
-            foodItemWeight = "1.5",
-            foodItemPrice =
-        1.99
+            ProductId = 1,
+            Product = "Lays",
+            Price = 2
         });
-
-
-        GroceryIsle isl3 = new GroceryIsle();
-        isl3.isleName = "Dairy";
-        isl3.isleNumber = 3;
-        isl3.FoodItemsList.Add(new FoodItem
+        PIsle1.FoodItemsList.Add(new FoodItem
         {
-            Quantity = 10,
-            foodItemName = "Milk",
-            foodItemWeight = "1.5",
-            foodItemPrice = 5.99
+            Quantity = 4,
+            ProductId = 2,
+            Product = "Samosas",
+            Price = 5
         });
-        isl3.FoodItemsList.Add(new FoodItem
-        {
-            Quantity = 20,
-            foodItemName = "Yogurt",
-            foodItemWeight = "1.5",
-            foodItemPrice =
-        2.79
-        });
-        isl3.FoodItemsList.Add(new FoodItem
+        PIsle1.FoodItemsList.Add(new FoodItem
         {
             Quantity = 5,
-            foodItemName = "Butter",
-            foodItemWeight = "1.5",
-            foodItemPrice =
-        5.00
+            ProductId = 3,
+            Product = "cake rusk",
+            Price = 2
         });
 
-        groceryIsle.Add(isl1);
-        groceryIsle.Add(isl2);
-        groceryIsle.Add(isl3);
+        GroceryIsle PIsle2 = new GroceryIsle();
+        PIsle2.isleName = "spices";
+        PIsle2.isleNumber = 2;
+        PIsle2.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 7,
+            ProductId = 1,
+            Product = "Turmeric",
+            Price = 8
+        });
+        PIsle2.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 6,
+            ProductId = 2,
+            Product = "Pepper",
+            Price = 6
+        });
+        PIsle2.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 1,
+            ProductId = 3,
+            Product = "Ginger",
+            Price = 2
+        });
+
+
+        GroceryIsle PIsle3 = new GroceryIsle();
+        PIsle3.isleName = "fastFood";
+        PIsle3.isleNumber = 3;
+        PIsle3.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 11,
+            ProductId = 1,
+            Product = "Noodles",
+            Price = 7
+        });
+        PIsle3.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 24,
+            ProductId = 2,
+            Product = "Tortillas",
+            Price = 5
+        });
+        PIsle3.FoodItemsList.Add(new FoodItem
+        {
+            Quantity = 15,
+            ProductId = 3,
+            Product = "Biryani",
+            Price = 4
+        });
+
+        Productisle.Add(PIsle1);
+        Productisle.Add(PIsle2);
+        Productisle.Add(PIsle3);
+
+
     }
 
     
-    private List<FoodItem> GetItems(int isleNumber)
+    private List<FoodItem> newProducts(int isleNumber)
     {
-        foreach (var GroceryIsle in groceryIsle)
+        foreach (var GroceryIsle in Productisle)
         {
             if (GroceryIsle.isleNumber == isleNumber)
             {
-                currentIsle = GroceryIsle.isleName;
+                newList = GroceryIsle.isleName;
                 return GroceryIsle.FoodItemsList;
             }
         }

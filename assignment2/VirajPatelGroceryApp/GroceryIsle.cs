@@ -9,12 +9,15 @@ public class GroceryIsle
 
     public GroceryIsle()
     {
+     
         FoodItemsList=new List<FoodItem>();
     }
 
-    public void AddFoodItem(FoodItem foodItem)
+    public void AddFoodItem(FoodItem NewFoodProducts)
     {
-        FoodItemsList.Add(foodItem);
+
+        
+        FoodItemsList.Add(NewFoodProducts);
     }
 
 }

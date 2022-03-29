@@ -1,0 +1,17 @@
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.csproj.AssemblyReference.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.AssemblyInfoInputs.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.AssemblyInfo.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.csproj.CoreCompileInputs.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.RazorComponent.input.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\GroceryStore.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\assignment2\VirajPatelGroceryApp\obj\Debug\net5.0\VirajPatelGroceryApp.RazorComponent.output.cache

@@ -10,14 +10,21 @@ public class FoodItem
 
      public void IncreaseQuaniity()
     {
+
+
         if(Quantity<20)
             Quantity++;
     }
+
+
 
     public void DescreaseQuaniity()
     {
         if(Quantity>0)
             Quantity--;
+
+
     }
+
 
 }
