@@ -1,0 +1,12 @@
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\bin\Debug\net5.0\VirajPatelChat.Shared.deps.json
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\bin\Debug\net5.0\VirajPatelChat.Shared.dll
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\bin\Debug\net5.0\ref\VirajPatelChat.Shared.dll
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\bin\Debug\net5.0\VirajPatelChat.Shared.pdb
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\VirajPatelChat.Shared.csproj.AssemblyReference.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\VirajPatelChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\VirajPatelChat.Shared.AssemblyInfoInputs.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\VirajPatelChat.Shared.AssemblyInfo.cs
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\VirajPatelChat.Shared.csproj.CoreCompileInputs.cache
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\VirajPatelChat.Shared.dll
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\ref\VirajPatelChat.Shared.dll
+C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Shared\obj\Debug\net5.0\VirajPatelChat.Shared.pdb

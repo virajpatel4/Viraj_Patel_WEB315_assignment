@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\excel\Desktop\asp.net_assignment\Viraj_Patel_WEB315_assignment\VirajPatelChat\Client\wwwroot\" />
+</StaticWebAssets>

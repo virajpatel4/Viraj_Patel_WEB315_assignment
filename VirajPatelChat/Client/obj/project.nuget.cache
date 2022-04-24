@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FdG8/8ThIPZ5XplHh53AkLhkvhNfaOoqdhEePdoSHVu/zQPZzlw2ghub5MB7cbmF3lkP02JXdmg1yOg3R2wcCA==",
+  "dgSpecHash": "b18GHQDhefatCJUMkTkpqx1vq37XWi3xU8ywJ1hHa+u4mPtarw8jJx5kNSCUa26ggmstkIzRmXkTNZLOoyuEBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\excel\\Desktop\\asp.net_assignment\\Viraj_Patel_WEB315_assignment\\VirajPatelChat\\Client\\VirajPatelChat.Client.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,15 @@
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.components.web\\5.0.16\\microsoft.aspnetcore.components.web.5.0.16.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\5.0.16\\microsoft.aspnetcore.components.webassembly.5.0.16.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\5.0.16\\microsoft.aspnetcore.components.webassembly.devserver.5.0.16.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.0\\microsoft.aspnetcore.connections.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\5.0.0\\microsoft.aspnetcore.http.connections.client.5.0.0.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\5.0.0\\microsoft.aspnetcore.http.connections.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.0\\microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.16\\microsoft.aspnetcore.metadata.5.0.16.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\5.0.0\\microsoft.aspnetcore.signalr.client.5.0.0.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\5.0.0\\microsoft.aspnetcore.signalr.client.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\5.0.0\\microsoft.aspnetcore.signalr.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\5.0.0\\microsoft.aspnetcore.signalr.protocols.json.5.0.0.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
@@ -30,6 +38,7 @@
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.16\\microsoft.jsinterop.webassembly.5.0.16.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\excel\\.nuget\\packages\\system.threading.channels\\5.0.0\\system.threading.channels.5.0.0.nupkg.sha512",
     "C:\\Users\\excel\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.16\\microsoft.netcore.app.runtime.browser-wasm.5.0.16.nupkg.sha512"
   ],
   "logs": []
