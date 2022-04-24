@@ -42,9 +42,36 @@ a, .btn-link {
     z-index: 1000;
 }
 
-    #blazor-error-ui .dismiss {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
-    }
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}    
+button{
+    color:#1b6ec2;
+    font-style: inherit;
+    font-weight: 100;
+}
+
+label{
+    background-color: #1861ac;
+    color:black;
+    font-style: italic;
+}
+
+input{
+    color: black;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.warper{
+    border: solid;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-width: 3px;
+    width: 500px;
+}

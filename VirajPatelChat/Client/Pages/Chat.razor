@@ -6,7 +6,7 @@
 
 <div class="form-group">
     <label>
-        User:
+        Name:
         <input @bind="userInput" />
     </label>
 </div>
@@ -23,7 +23,7 @@
 <ul id="messagesList">
     @foreach (var message in messages)
     {
-        <li>@message</li>
+        <li class="warper">@message</li>
     }
 </ul>
 
